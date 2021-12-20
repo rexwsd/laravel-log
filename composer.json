@@ -29,5 +29,5 @@
         }
     },
     "license": "AFL-3.0",
-    "name": "rex/laravel-log"
+    "name": "rexwsd/laravel-log"
 }
