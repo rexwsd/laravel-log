@@ -1,4 +1,4 @@
-# 四合Log服务Libray
+# 基于monoLog二次开发的日志Libray
 
 
 ## Install
