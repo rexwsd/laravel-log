@@ -1,0 +1,33 @@
+{
+    "authors": [
+        {
+            "name": "栗田庆",
+            "email": "5198895@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Laravel\\Log\\": "src/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "description": "基于monolog二次开发的日志组件",
+    "require": {
+        "illuminate/log": "*",
+        "monolog/monolog": "*"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Laravel\\Log\\LogServiceProvider"
+            ],
+            "aliases": {
+                "Log": "Laravel\\Log\\Facades"
+            }
+        }
+    },
+    "license": "AFL-3.0",
+    "name": "rex/laravel-log"
+}
