@@ -5,7 +5,7 @@
 
 ### 方式一
 
-> composer require rex/laravel-log
+> composer require rexwsd/laravel-log
 
 ### 方式二
 Step1: 在项目composer.json文件require段中增加如下：
@@ -13,12 +13,12 @@ Step1: 在项目composer.json文件require段中增加如下：
 
 ```php
 "require": {
-         "rex/laravel-log": "0.*"
+         "rexwsd/laravel-log": "0.*"
      }
 ```
 
 Step2: 执行  
-> composer update rex/laravel-log
+> composer update rexwsd/laravel-log
 
 ## Document
 ### config配置
